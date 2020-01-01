@@ -1,6 +1,0 @@
-#----root/variables.tf-----
-#variable "aws_region" {us-east-1}
-
-#------ storage variables
-variable "project_name" {myproject}
-
