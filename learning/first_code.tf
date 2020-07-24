@@ -1,9 +1,9 @@
 provider "aws" {
-  profile = "default"
   region = "us-east-1"
+  profile = "default"
 }
 
-resource "aws-s3-bucket" "tf_course" {
+resource "aws_s3_bucket" "tf_course" {
   bucket  = "tf-cource-8435720349"
   acl = "private"
-
+}
